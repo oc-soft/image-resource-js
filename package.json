@@ -1,0 +1,23 @@
+{
+  "name": "@oc-soft/image-resource",
+  "version": "0.1.0",
+  "description": "It manages some images as inline data.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "png",
+    "image",
+    "ressource",
+    "data"
+  ],
+  "author": "Toshiyuki Ogawa",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-image": "^2.1.1",
+    "rollup": "^2.62.0"
+  }
+}
